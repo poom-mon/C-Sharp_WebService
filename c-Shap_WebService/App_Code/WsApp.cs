@@ -26,12 +26,12 @@ public class WsApp : System.Web.Services.WebService {
     }
     [WebMethod]
    // [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)] 
+    [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
     public string callJsonWebservice()
     {   
         //using system.web.Extension 
         //add reference Newtonsoft.Json
-        //using Newtonsoft.Json 
-
+        //using Newtonsoft.Json  
         List<MODEL.QueryModel> obj = BAL.queryDataBAL.queryObj();
         return JsonConvert.SerializeObject(obj, Formatting.Indented); 
     }  

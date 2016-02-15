@@ -16,8 +16,8 @@
     <br /><br />
 
             <select id="ddlSelect">
-             <option value="0">เลือก </option>
-                <option value="wsXml">Call webservice Xml </option>
+                 <option value="0">เลือก </option>
+                 <option value="wsXml">Call webservice Xml </option>
                  <option value="wsJson">Call webservice Json </option>
             </select>
     <div> 
@@ -35,8 +35,7 @@
             }
             else if (call == "wsJson") {
                 fncJsonWs();
-            }
-
+            } 
         });
       // fncXmlWs();
         function fncXmlWs() {
