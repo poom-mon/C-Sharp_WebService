@@ -35,7 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebAPI", "MvcWebAPI\MvcW
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{FBFBBE00-0E2C-4C4C-A0A4-626A1F0F5EE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf_WebService", "Wcf_WebService\Wcf_WebService.csproj", "{6496D2D4-0301-4C5C-9BFF-3D1D31B20F49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{1FB08189-9041-46D8-A10D-7EAA0327B2B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,10 +67,10 @@ Global
 		{D2A7960B-87A3-433A-8705-3F0E515D5101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A7960B-87A3-433A-8705-3F0E515D5101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A7960B-87A3-433A-8705-3F0E515D5101}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6496D2D4-0301-4C5C-9BFF-3D1D31B20F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6496D2D4-0301-4C5C-9BFF-3D1D31B20F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6496D2D4-0301-4C5C-9BFF-3D1D31B20F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6496D2D4-0301-4C5C-9BFF-3D1D31B20F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB08189-9041-46D8-A10D-7EAA0327B2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB08189-9041-46D8-A10D-7EAA0327B2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB08189-9041-46D8-A10D-7EAA0327B2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB08189-9041-46D8-A10D-7EAA0327B2B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
